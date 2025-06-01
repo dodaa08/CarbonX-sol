@@ -4,6 +4,7 @@ import Features from "../components/(Landing)/Features";
 import  Footer  from "../components/(Landing)/Footer";
 import { Github } from "lucide-react";
 
+
 const Landing = ()=>{
   return (
     <>
