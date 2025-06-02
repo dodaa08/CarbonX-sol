@@ -131,11 +131,14 @@ const Content = () => {
         <div className="relative w-[500px] h-[500px] mx-auto">
           <OrbitingCircles radius={180} duration={25}>
             {/* Display all 6 NFT cards in the orbit */}
-            {require('../../marketplace/mockData').mockNFTs.slice(0, 4).map((nft: any) => (
-              <div key={nft.id} className="w-56 h-72">
-                {require('../marketplace/NFTCard').default({ nft })}
-              </div>
-            ))}
+            {(() => {
+              const nft = require('../../marketplace/mockData').mockNFTs[3];
+              return (
+                <div className="w-56 h-72">
+                  {require('../marketplace/NFTCard').default({ nft })}
+                </div>
+              );
+            })()}
 
             
 
