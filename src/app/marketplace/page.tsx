@@ -49,7 +49,7 @@ export default function Marketplace() {
       <div className="container mx-auto px-4 py-8">
         <div className='py-2 mb-5'>
           <h1 className="font-medium text-gray-300 block mb-2  text-xl">
-            *A early staged version of the platform, UI is not final yet.
+            *An early staged version of the platform, UI is not final yet.
           </h1>
         </div>
 

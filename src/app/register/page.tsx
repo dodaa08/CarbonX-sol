@@ -1214,7 +1214,7 @@ const Register: NextPage = () => {
       <div className="container mx-auto px-4 py-8">
         <div>
           <h1 className="font-medium text-gray-300 block mb-2 text-xl mt-5 mb-5">
-            *A early staged version of the platform, UI is not final yet.
+            *An early staged version of the platform, UI is not final yet.
           </h1>
         </div>
         <div className="flex justify-between items-center mb-8">
